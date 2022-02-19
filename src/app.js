@@ -10,9 +10,9 @@ async function setActivity() {
         details: `Check out my discord bot!`,
         state: `Playing Pog Bot`,
         startTimestamp: Date.now(),
-        largeImageKey: 'Pog Bot',
+        largeImageKey: 'dom_k_v2',
         largeImageText: `Pog Bot`,
-        smallImageKey: `Pog Bot`,
+        smallImageKey: `dom_k_v2`,
         smallImageText: `Pog Bot`,
         instance: false,
         buttons: [
