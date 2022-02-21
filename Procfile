@@ -1,1 +1,1 @@
-Web: npm test start
+web: node ./src/app.js
