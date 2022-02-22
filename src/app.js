@@ -4,10 +4,12 @@ const RPC = new DiscordRPC.Client({ transport: 'ipc'});
 const express = require('express')
 const app = express();
 const httpApp = express();
+require('dotenv').config()
+
 
 const http = require(`http`).createServer(app);
-http.listen(3000 , () => {
-    console.log(`: HTTP-Website running on 300 port.`)
+http.listen(process.env.PORT || 3000 , () => {
+    console.log(`: HTTP-Website running on ${process.env.PORT} port.`)
 });
 
 
