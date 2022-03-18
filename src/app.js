@@ -37,8 +37,8 @@ async function setActivity() {
                 url: `https://pogbotter.herokuapp.com`
             },
             {
-                label: `Portfolio Website`,
-                url: `https://dom-port.herokuapp.com`,
+                label: `Roast API`,
+                url: `https://api-roast.herokuapp.com`,
             },
         ]
     });
